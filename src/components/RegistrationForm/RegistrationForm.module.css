@@ -16,8 +16,8 @@
   padding: 0 10px;
 }
 
-.name {
-  color: #19218e;
+.field:last-of-type {
+  margin-bottom: 10px;
 }
 
 .error {
@@ -26,17 +26,22 @@
 }
 
 .btn {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  letter-spacing: 0.02em;
   background-color: transparent;
   border: 1px solid grey;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   align-self: center;
+  text-transform: uppercase;
 }
 
 .btn:hover {
   background-color: lightblue;
   color: #19218e;
+  box-shadow: 0px 10px 20px -10px #3d3d3d;
+  border-color: #00d8ff;
 }

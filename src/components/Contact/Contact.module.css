@@ -21,8 +21,21 @@
   gap: 10px;
 }
 
+.input {
+  width: 120px;
+  border-radius: 5px;
+  border: 1px solid;
+  overflow: hidden;
+}
+
 .icon {
-  fill: blue;
+  fill: #00d8ff;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .btn {
@@ -37,4 +50,5 @@
 
 .btn:hover {
   background-color: lightblue;
+  color: #19218e;
 }

@@ -39,3 +39,31 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.pages {
+  margin: 50px;
+}
+
+.greet {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #19218e;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.phonebook,
+.react {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.phonebookEmpty {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 26px;
+  color: #19218e;
+  margin: 30px;
+}
